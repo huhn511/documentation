@@ -27,7 +27,7 @@ If you have fixed neighbors that aren't synchronized, you can wait until they ar
 
 ### Handle many transactions
 
-To prevent DDOS attacks, Hornet returns only a maximum of 1000 random transactions from an address.
+To prevent DDOS attacks, Hornet returns only a maximum of 1000 transactions from an address.
 So if there are more transactions available, it will return 1000 random transactions.
 You can configure the limit `httpAPI.limits.findTransactions` in the configuration file described [here](https://github.com/gohornet/hornet/wiki/Configuration#httpapi).
 
